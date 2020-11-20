@@ -93,7 +93,7 @@ public class Controller : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.Space))
         {
             // player의 속도, 회전을 판단하고 점프가 가능한 상태인지 판단
-            if (((int)rigid.velocity.y == 0 && (int)this.transform.eulerAngles.x == 0) && check >= 1)
+            if (((int)this.transform.eulerAngles.x == 0) && check == 1)
             {
                 // 점프력이 무한정 커지는 걸 막기 위해 일정 수준이 넘어가면 그 수준을 넘지 못하도록 한다.
                 if (forceY > 300)
