@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3984680060557059646}
   - component: {fileID: 3984680060557059647}
   - component: {fileID: 2292032605339845781}
-  - component: {fileID: -8695754577115311029}
+  - component: {fileID: -4504317667873548440}
   m_Layer: 0
   m_Name: Teleport
   m_TagString: Teleport
@@ -112,7 +112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43430b782c86b764da0f3dd072b830cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  butt: {fileID: 0}
   x: 0
   y: 0
   z: 0
@@ -4966,7 +4965,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5df93c33f97d1dc448d733ffeada2b41, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5050,7 +5049,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-8695754577115311029
+--- !u!114 &-4504317667873548440
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5059,7 +5058,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3984680060557059637}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5061550003593b4190e9633ca47d878, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c8e633b0b243d0459104c1c513b2055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   music: {fileID: 0}

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+// Fade In, out 효과를 내는 함수
 public class Fade : MonoBehaviour
 {
  

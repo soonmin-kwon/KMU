@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+// Back to Main 버튼 스크립트
 public class Setting : MonoBehaviour
 {
     // 게임 내 메뉴에서 메인으로 가는 버튼을 누르면

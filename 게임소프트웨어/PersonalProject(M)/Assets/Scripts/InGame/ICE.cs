@@ -18,6 +18,7 @@ public class ICE : MonoBehaviour
     public void OnCollisionEnter(Collision other)
     {
         // 같은 발판 내에서 점프인지 확인
+        
         if (check == 1)
         {
             angle = obj.transform.rotation.y;
@@ -54,13 +55,5 @@ public class ICE : MonoBehaviour
                 obj.transform.Translate(0, 0, movespeed);
             }
         }
-    }
-    // 한 얼음 발판 내에서 점프하는 경우 방향 값 설정
-    // 얼음 발판 1에서 점프해서 다시 얼음 발판1로 착지하면 밀려나는 방향이
-    // 점프할 때 방향과 같아야 함.
-    public void OnCollisionExit(Collision other)
-    {
-        angle = obj.transform.rotation.y;
-        check++;
     }
 }

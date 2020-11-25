@@ -32,7 +32,6 @@ public class Chicken : MonoBehaviour
             }
             yield return new WaitForSeconds(3.0f);
         }
-        
     }
     
     // 치킨이 부딪혔을 때
@@ -51,9 +50,7 @@ public class Chicken : MonoBehaviour
             }
             // 1.5초 뒤 클리어 씬으로 변경
         }
-        
     }
-
     // 씬 변경 함수
     public void change()
     {

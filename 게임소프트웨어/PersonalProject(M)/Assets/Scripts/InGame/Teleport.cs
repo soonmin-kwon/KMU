@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//모바일 전용 스크립트
+// 텔레포트가 가능한 발판
 public class Teleport : MonoBehaviour
 {
     // Start is called before the first frame update
@@ -29,14 +29,12 @@ public class Teleport : MonoBehaviour
         // 포탈 버튼을 누르면
         if (butt.GetComponent<MobileVersion>().upcheck)
         {
-            Debug.Log(butt.GetComponent<MobileVersion>().upcheck);
             GetComponent<ParticleSystem>().Play();
             audio.Play();
             Invoke("Tele", 1);
             //Teleport 후 다시 false로
             butt.GetComponent<MobileVersion>().upcheck = false;
         }
-        
     }
     // 실제 움직이는 함수
     public void Tele()
